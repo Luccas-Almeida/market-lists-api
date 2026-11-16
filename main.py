@@ -841,7 +841,7 @@ def listar_itens(
                 }
             )
 
-            # Retorna os produtos encontrados (ver se devo apagar o(s) comentario(s) extremamente desnessesário(s) para ficar mais bonito).
+            # Retorna os produtos encontrados.
             return [
                 dict(item)
                 for item in resultado.mappings().all()
