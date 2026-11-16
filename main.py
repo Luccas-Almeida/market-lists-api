@@ -1449,7 +1449,7 @@ def enviar_imagem_produto(
         ):
             raise HTTPException(
                 status_code=415,
-                detail="Tá doidão? colocando coisas que não são imagens? espero que voçê ganhe na loteria e seja atropelado por um ônibus."
+                detail="O arquivo enviado não é uma imagem valida."
             )
 
         # Conferir se o conteúdo corresponde ao tipo informado.
